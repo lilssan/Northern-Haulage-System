@@ -1,0 +1,6 @@
+{
+  "name": "Northern Haulage Systems",
+  "description": "Enterprise logistics, bulk freight, and supply chain governance platform across Northern Nigeria's primary trade corridors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

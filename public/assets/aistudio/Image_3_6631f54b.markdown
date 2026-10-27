@@ -1,0 +1,244 @@
+---
+name: Northern Haulage Systems
+colors:
+  surface: '#f8f9ff'
+  surface-dim: '#cbdbf5'
+  surface-bright: '#f8f9ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#eff4ff'
+  surface-container: '#e5eeff'
+  surface-container-high: '#dce9ff'
+  surface-container-highest: '#d3e4fe'
+  on-surface: '#0b1c30'
+  on-surface-variant: '#44474c'
+  inverse-surface: '#213145'
+  inverse-on-surface: '#eaf1ff'
+  outline: '#75777d'
+  outline-variant: '#c5c6cd'
+  surface-tint: '#525f75'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#0e1c2f'
+  on-primary-container: '#77849c'
+  inverse-primary: '#bac7e1'
+  secondary: '#994700'
+  on-secondary: '#ffffff'
+  secondary-container: '#fb7800'
+  on-secondary-container: '#592600'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#001c38'
+  on-tertiary-container: '#6886ae'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#d6e3fe'
+  primary-fixed-dim: '#bac7e1'
+  on-primary-fixed: '#0e1c2f'
+  on-primary-fixed-variant: '#3a475c'
+  secondary-fixed: '#ffdbc8'
+  secondary-fixed-dim: '#ffb68b'
+  on-secondary-fixed: '#321200'
+  on-secondary-fixed-variant: '#753400'
+  tertiary-fixed: '#d3e4ff'
+  tertiary-fixed-dim: '#aac9f4'
+  on-tertiary-fixed: '#001c38'
+  on-tertiary-fixed-variant: '#29486d'
+  background: '#f8f9ff'
+  on-background: '#0b1c30'
+  surface-variant: '#d3e4fe'
+typography:
+  display-lg:
+    fontFamily: Inter
+    fontSize: 3.5rem
+    fontWeight: '700'
+    lineHeight: 4rem
+    letterSpacing: -0.025em
+  headline-xl:
+    fontFamily: Inter
+    fontSize: 2.25rem
+    fontWeight: '700'
+    lineHeight: 2.75rem
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Inter
+    fontSize: 1.75rem
+    fontWeight: '700'
+    lineHeight: 2.25rem
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 1.75rem
+    fontWeight: '600'
+    lineHeight: 2.25rem
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 1.375rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 1.125rem
+    fontWeight: '600'
+    lineHeight: 1.5rem
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 1.125rem
+    fontWeight: '400'
+    lineHeight: 1.75rem
+  body-md:
+    fontFamily: Inter
+    fontSize: 0.9375rem
+    fontWeight: '400'
+    lineHeight: 1.5rem
+  body-sm:
+    fontFamily: Inter
+    fontSize: 0.8125rem
+    fontWeight: '400'
+    lineHeight: 1.25rem
+  label-lg:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.01em
+  label-md:
+    fontFamily: Inter
+    fontSize: 0.75rem
+    fontWeight: '600'
+    lineHeight: 1rem
+    letterSpacing: 0.025em
+  label-sm:
+    fontFamily: Inter
+    fontSize: 0.6875rem
+    fontWeight: '600'
+    lineHeight: 0.875rem
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  gutter-lg: 2rem
+  margin: 2rem
+  margin-sm: 1rem
+  margin-lg: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system embodies an authoritative, institutional, and modern industrial standard engineered for enterprise logistics, bulk freight, and supply chain governance across Northern Nigeria's primary trade corridors.
+
+The visual tone communicates absolute operational certainty, heavy asset security, and administrative rigor. Designed for procurement heads, industrial manufacturers, fast-moving consumer goods (FMCG) distributors, and compliance regulators, the interface strips away superfluous embellishment in favor of structural clarity, precise spatial alignment, and data legibility.
+
+### Design Movements & Philosophy
+- **Corporate & Modern Industrial:** Anchored by enterprise structural discipline, combining deep institutional navy tones with industrial safety accents reminiscent of freight transport markings, container seals, and digital telematics consoles.
+- **Architectural Utility:** Emphasizes high-density data tables, verifiable tracking timelines, strict status indicators, and audit-ready reporting surfaces.
+- **Institutional Weight:** Delivers confidence through disciplined borders, crisp micro-elevations, and tabular typographic alignment capable of handling complex freight manifests, billing sheets, and multi-hub transit statuses without visual fatigue.
+
+## Colors
+
+The palette establishes an immediate sense of institutional reliability and operational safety.
+
+### Palette Architecture
+- **Primary (`#0B192C` - Deep Navy):** Represents stability, governance, and institutional authority. Used for commanding structural headers, primary enterprise CTAs, top navigation frames, and high-impact text.
+- **Secondary (`#FF7A00` - Industrial Safety Amber/Orange):** Evokes active transit, machinery, telematics alerts, and mission-critical actions. Used purposefully for prime interaction states, critical route milestones, dispatch actions, and shipment alerts. Never used for decorative washes; its presence signals movement or immediate action.
+- **Tertiary (`#1E3E62` - Industrial Steel Blue):** Serves as an analytical bridge between dark primary surfaces and data visualization, selected row states, and secondary telemetry data.
+- **Neutral (`#64748B` - Slate Core):** Grounded by clean light backdrops (`#F8FAFC`, `#FFFFFF`) and defined by crisp architectural borders (`#E2E8F0`). Secondary slate tones provide structured data labels, metadata strings, and table dividers.
+
+### Semantic Tones
+- **Success (`#047857` / `#ECFDF5`):** Cargo cleared, delivered on time, inspection approved.
+- **Warning (`#B45309` / `#FFFBEB`):** Transit bottleneck, weighbridge delay, customs review.
+- **Critical / Danger (`#B91C1C` / `#FEF2F2`):** Fleet breakdown, route hazard, unauthorized detour.
+- **Information (`#0369A1` / `#F0F9FF`):** Manifest logged, scheduled dispatch, checkpoint logged.
+
+## Typography
+
+The type system prioritizes micro-legibility and vertical rhythm across complex operational dashboards and client manifests. Built completely on `Inter`, the neutral grotesque structure prevents visual distortion when viewing dense numeric data, consignment waybills, and coordinates.
+
+### Guidelines
+- **Tabular Figures:** All numeric fields (metric values, tonnage figures, currency values in NGN/USD, GPS coordinates, ETA timestamps) must activate `font-feature-settings: "tnum"` to maintain strict tabular vertical alignment.
+- **Hierarchy Enforcement:** Section titles and critical haulage route titles utilize medium-to-bold weights with slight negative letter tracking to retain solid visual containment.
+- **Micro-labels & Tags:** Labels below `12px` (`label-sm`) require uppercase rendering with expanded letter spacing (`+0.04em`) to ensure legibility on low-contrast warehouse displays or handheld mobile terminal screens.
+
+## Layout & Spacing
+
+The layout model is governed by a strict, responsive 12-column grid optimized for horizontal data containment and functional enterprise dashboards.
+
+### Grid & Breakpoints
+- **Desktop (1280px+):** 12 columns, `gutter-lg` (2rem), `margin-lg` (3rem). Accommodates dense operational split-views (e.g., interactive route maps alongside haulage manifests and load-bay capacity lists).
+- **Tablet (768px - 1279px):** 8 columns, `gutter` (1.5rem), `margin` (2rem). Metric cards reflow to a 2x2 grid; freight management tables enable horizontal scroll with frozen ID columns.
+- **Mobile (< 768px):** 4 columns, `gutter-sm` (1rem), `margin-sm` (1rem). Quotation forms and operational waybill workflows compress into single-column vertical flows.
+
+### Spacing Principles
+- **Predictable 4px Base Unit:** Internal spacing leverages structural intervals: 4px (`space-xs`) for micro-badge containment, 8px (`space-sm`) for input-to-label alignment, 16px (`space-md`) for standard card interiors, 24px (`space-lg`) between related components, and 32px (`space-xl`) between distinct analytical panels.
+- **Vertical Density:** Dense table rows and data-heavy summaries default to `0.5rem` (`space-sm`) vertical padding to maximize visible screen real estate without clutter.
+
+## Elevation & Depth
+
+Visual hierarchy does not rely on exaggerated skeuomorphism or deep diffused drop shadows. Instead, it utilizes structural containment via crisp slate boundaries paired with subtle tonal layering and razor-sharp micro-shadows.
+
+### Elevation Hierarchy
+- **Level 0 (Flat / Canvas):** Main background `#F8FAFC`. Zero elevation. Clean architectural base.
+- **Level 1 (Card & Module Foundation):** White surfaces (`#FFFFFF`) bound by a crisp 1px solid border (`#E2E8F0`). Subtle ambient drop shadow: `0px 1px 3px rgba(11, 25, 44, 0.05), 0px 1px 2px rgba(11, 25, 44, 0.03)`.
+- **Level 2 (Hover States, Interactive Cards, Active Filter Bars):** Elevated interactive elements. 1px solid border (`#CBD5E1`), shadow: `0px 4px 6px -1px rgba(11, 25, 44, 0.08), 0px 2px 4px -2px rgba(11, 25, 44, 0.04)`.
+- **Level 3 (Overlays, Quotation Modals, Waybill Drawers):** Floating system components. 1px border (`#94A3B8`), shadow: `0px 12px 24px -4px rgba(11, 25, 44, 0.12), 0px 4px 8px -2px rgba(11, 25, 44, 0.06)`.
+
+### Border-First Discipline
+Every elevated layer preserves clear structural borders. Boundaries must always be distinct, assuring operators that interactive data blocks are compartmentalized and stable.
+
+## Shapes
+
+The design system enforces a calibrated `Soft` roundedness profile (`roundedness: 1`), conveying enterprise precision, industrial sturdiness, and administrative discipline.
+
+### Geometry Specifications
+- **Base UI Elements (`rounded: 0.25rem / 4px`):** Buttons, input fields, table cell badges, dropdown items, and control checkboxes. Gives inputs a crisp, mechanical edge without feeling dated or sharp.
+- **Structured Cards & Panels (`rounded-lg: 0.5rem / 8px`):** Metric panels, corridor route overview cards, and quote construction containers.
+- **Dialogs & Overlays (`rounded-xl: 0.75rem / 12px`):** Waybill inspection modals, telematics popovers, and large enterprise sheets.
+- **Full Pill (`9999px`):** Exclusively reserved for high-visibility operational status badges (e.g., "IN TRANSIT", "WEIGHBRIDGE CLEARED", "DELAYED") to visually distinguish them from actionable buttons and rectangular data inputs.
+
+## Components
+
+### Buttons
+- **Primary:** Background `#0B192C`, text `#FFFFFF`, border none, border-radius `0.25rem`. Hover: `#1E3E62`. Focus-visible: 2px offset ring in `#FF7A00`.
+- **Secondary (Action / Transit Accent):** Background `#FF7A00`, text `#FFFFFF`, border-radius `0.25rem`. Hover: `#E65C00`. Used for "Book Freight", "Confirm Dispatch", and "Request Instant Quote".
+- **Outline / Operational:** Background transparent, border 1px solid `#CBD5E1`, text `#0B192C`. Hover: `#F1F5F9`.
+
+### Input Fields & Quotation Selectors
+- Background `#FFFFFF`, border 1px solid `#CBD5E1`, border-radius `0.25rem`, vertical padding `0.625rem`, horizontal padding `0.875rem`.
+- Focus state: Border shifts to `#0B192C` with a 1px outline of `#0B192C`.
+- Route picker inputs (e.g., "Origin: Idu Depot, Abuja", "Destination: Bompai Industrial Zone, Kano") integrate trailing status icons indicating corridor clearance.
+
+### Metric Cards (KPI Displays)
+- Background `#FFFFFF`, border 1px solid `#E2E8F0`, border-radius `0.5rem`, padding `1.25rem`.
+- Structure: Micro-label header (`label-sm`, `#64748B`), bold numeric display (`headline-lg`, `#0B192C`, tabular figures), trailing micro-trend or corridor indicator (e.g., "+4.2% Fleet Utilization" or "24h Avg Transit: Abuja-Kaduna"). Left edge includes an optional 3px vertical accent border in `#0B192C` or `#FF7A00` for critical fleet states.
+
+### Data Tables & Waybill Logs
+- Headers: Background `#F8FAFC`, bottom border 2px solid `#E2E8F0`, typography `label-md` in `#475569`, text uppercase.
+- Rows: Background `#FFFFFF`, bottom border 1px solid `#F1F5F9`, row height 44px (dense) or 56px (standard). Hover state: `#F8FAFC`.
+- Cells: Tabular-lined typography for weights (e.g., `32.4 MT`), container codes, and invoice totals.
+
+### Chips & Compliance Badges
+- Pill-shaped (`rounded: 9999px`), padding `0.125rem 0.625rem`, font `label-sm`.
+- Status styles:
+  - *Active Transit:* Light orange background (`#FFF7ED`), text `#C2410C`, border 1px solid `#FED7AA`.
+  - *Compliant / Verified:* Light emerald background (`#ECFDF5`), text `#047857`, border 1px solid `#A7F3D0`.
+  - *Restricted Corridor:* Light rose background (`#FEF2F2`), text `#B91C1C`, border 1px solid `#FECACA`.
+
+### Interactive Quotation Request Widget
+- Encapsulated in a `rounded-lg` panel featuring a distinct top accent strip (4px `#FF7A00`).
+- Segmented cargo type buttons (Dry Bulk, Containerized, Heavy Machinery, FMCG) using unified radio-card patterns that toggle from border `#E2E8F0` to a deep navy border `#0B192C` with light slate background tint.
